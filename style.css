@@ -1,0 +1,251 @@
+div.containter {
+    width: 1000px;
+    min-height: 1000px;
+    margin: 0px, auto;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(131, 102, 131), rgb(0, 0, 0));
+}
+
+    div.containter div.top {
+        min-height: 40px;
+        background-color: white;
+    }
+
+    div.containter div.top ul li {
+        display: inline-block;
+    }
+
+        .name {
+            display: inline-block;
+            text-align: left;
+            font-family: cursive;
+            font-weight: bold;
+            width: 300px;
+            font-size: 35px;
+            padding: 3px;
+        }
+        
+        .title {
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            width: 350px;
+            font-size: 20px;
+            margin-left: 225px;
+            margin-bottom: 15px;
+        }
+
+    .profile {
+        min-height: 100px;
+            
+    }
+
+    .profile ul li {
+            display: inline-block;
+    }
+
+    .profile_img {
+        min-height: 300px;
+        width: 400px;
+        display: inline-block;
+        border: solid silver 5px;
+        margin-right: 25px;
+    }
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: 0px;
+            vertical-align: top;
+            background-image: linear-gradient(silver, grey, silver);
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            padding: 5px;
+            font-size: 20px;
+        }
+
+        .bio {
+            min-height: 310px;
+            width: 500px;
+            display: inline-block;
+            background-image: linear-gradient(-90deg, rgb(208, 183, 218), white);
+            vertical-align: top;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .bio p {
+            padding: 6px;
+        }
+
+        .bio a {
+            color: black;
+            display: block;
+            margin-top: 25px;
+        }
+
+        div.containter div.projects {
+            min-height: 400px;
+            background-color: yellow;
+            display: block;
+        }
+
+    .middle {
+        display: inline-block;
+        min-height: 657px;
+    }
+    
+        .middle ul {
+            width: 1000px;
+            padding: 0;
+            display: inline-block;
+            margin: 0px 0px 0px 0px;
+        }
+
+            .middle ul li {
+                display: inline-block;
+            }
+
+        .project1 {
+            width: 300px;
+            height: 360px;
+            margin: 15px;
+            padding-bottom: 67px;
+            display: inline-block;
+            background-image: linear-gradient(-90deg, rgb(208, 183, 218), white);
+            vertical-align: top;
+        }
+
+            .project1 h1 {
+                margin: 0px;
+            }
+
+                .project1 img {
+                    width: 300px;
+                    height: 200px;
+                }
+
+                .project1 p {
+                    margin-bottom: 0px;
+                    text-align: justify;
+                    padding: 7px;
+                }
+
+            .project1 .technologies {
+                margin-top: 52px;
+            }
+
+            .project1 .technologies .button {
+                margin-top: 5px;
+            }
+
+        .project2 {
+            width: 300px;
+            height: 410px;
+            margin: 20px 15px 15px 15px;
+            padding-bottom: 15px;
+            display: inline-block;
+            background-image: linear-gradient(-90deg, rgb(208, 183, 218), white);
+            vertical-align: top;
+        }
+
+            .project2 img {
+                width: 300px;
+                height: 200px;
+            }
+
+            .project2 p {
+                padding: 7px;
+                margin-top: 0px;
+                text-align: justify;
+            }
+
+            .project2 .technologies{
+                margin-top: 14px;
+                padding-bottom: 15px;
+            }
+
+            .project2 .technologies .button {
+                margin-left: 100px;
+            }
+
+        .project3 {
+            width: 300px;
+            height: 430px;
+            margin: 15px 15px 0px 15px;
+            padding-bottom: 15px;
+            display: inline-block;
+            background-image: linear-gradient(-90deg, rgb(208, 183, 218), white);
+            vertical-align: top;
+        }
+
+            .project3 img {
+                width: 300px;
+                height: 200px;
+            }
+
+            .project3 p {
+                padding: 7px;
+                margin: 0px;
+                text-align: justify;
+            }
+
+            .project3 .technologies {
+                padding-bottom: 13px;
+            }
+
+        .technologies {
+            width: 300px;
+            height: 215px;
+            display: inline-block;
+            background-image: linear-gradient(-90deg, rgb(208, 183, 218), white);
+        }
+
+            .technologies img {
+                width: 50px;
+                height: 50px;
+                margin: 2px;
+            }
+
+            .technologies .button {
+                background-color: rgb(34, 124, 79);
+                border: 2px solid black;
+                border-radius: 10px;
+                color: white;
+                padding: 5px;
+                margin: 15px 0px 0px 120px;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 13px;
+                font-weight: bold;
+                box-shadow: 3px 3px 3px 3px #ccc;
+                vertical-align: top;
+            }
+
+    .footer {
+        width:1000px;
+        height:50px;
+    }
+
+    .footer p {
+        margin:auto;
+        width: 240px;
+    }
+
+    .footer ul {
+        width: 380px;
+        margin:auto;
+    }
+
+    .footer ul li {
+        display:inline-block;
+    }
+
+    .footer img {
+        width: 25px;
+        height:auto;
+        margin:auto;
+    }
+
+    .footer, .header{
+        background-color: #f9f9f9
+    }
